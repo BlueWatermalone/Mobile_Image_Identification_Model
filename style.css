@@ -1,0 +1,35 @@
+body {
+    font-family: 'Cabin', cursive;
+    background-color: #c5b5ff;
+}
+.header_div {
+    background: white;
+    color: #286d9e;
+}
+.header_div img {
+    width: 100px
+}
+.main_div {
+    background-color: #9375ff;
+    margin: 10px;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+.main_div label {
+    background: #e1d9ff;
+    width: 310px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+#camera {
+    border: 2px solid ghostwhite;
+    width: 310px;
+    height: 300px;
+    box-shadow: 10px 10px 20px ghostwhite;
+}
+.main_div button {
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 10px 10px 20px ghostwhite;
+    border: 2px solid ghostwhite;
+}
