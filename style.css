@@ -7,21 +7,30 @@ body {
     color: #286d9e;
 }
 .header_div img {
-    width: 100px
+    width: 100px;
 }
-.main_div {
+
+.main_div_capture {
     background-color: #9375ff;
     margin: 10px;
     margin-top: 15px;
     border: 3px solid white;
 }
+
+.main_div_identify {
+    background-color: #9375ff;
+    margin: 10px;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+
 .main_div label {
     background: #e1d9ff;
     width: 310px;
     margin: 10px;
     margin-bottom: 0px;
 }
-#camera {
+#camera, #result {
     border: 2px solid ghostwhite;
     width: 310px;
     height: 300px;
@@ -32,4 +41,25 @@ body {
     font-size: 16px;
     box-shadow: 10px 10px 20px ghostwhite;
     border: 2px solid ghostwhite;
+}
+.footer_div {
+    margin-bottom: 50px;
+}
+.footer_div h4 {
+    background: ghostwhite;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px 20px ghostwhite;
+}
+.footer_div img {
+    width: 70px;
+}
+.copy_right_footer {
+    position: fixed;
+    color: #85adc7;
+    bottom: 0;
+    width: 100%;
+    background-color: ghostwhite;
+    line-height: 3px;
+    text-align: center;
 }
