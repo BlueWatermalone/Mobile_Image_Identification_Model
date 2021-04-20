@@ -10,16 +10,9 @@ body {
     width: 100px;
 }
 
-.main_div_capture {
-    background-color: #9375ff;
-    margin: 10px;
-    margin-top: 15px;
-    border: 3px solid white;
-}
-
-.main_div_identify {
-    background-color: #9375ff;
-    margin: 10px;
+.main_div {
+    background-color: #7049fe;
+    padding: 10px;
     margin-top: 15px;
     border: 3px solid white;
 }
@@ -56,10 +49,10 @@ body {
 }
 .copy_right_footer {
     position: fixed;
-    color: #85adc7;
+    color: #49a1dc;
     bottom: 0;
     width: 100%;
     background-color: ghostwhite;
-    line-height: 3px;
+    line-height: 3;
     text-align: center;
 }
